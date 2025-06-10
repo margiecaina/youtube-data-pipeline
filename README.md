@@ -2,8 +2,6 @@
 
 This project simulates a real-world data engineering workflow for ingesting, processing, and analyzing YouTube trending video category data using serverless architecture on AWS.
 
-It is inspired by Darshil Parmar’s YouTube Data Engineering series and showcases how to work with semi-structured data at scale using cloud-native tools.
-
 ---
 
 ## 🚀 Project Objectives
