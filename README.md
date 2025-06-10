@@ -57,3 +57,18 @@ It is inspired by Darshil Parmar’s YouTube Data Engineering series and showcas
         +----------------+
         | Amazon Athena  |
         +----------------+
+```
+
+
+## 📊 Dataset
+This project uses the Trending YouTube Video Statistics dataset from Kaggle.
+
+The dataset contains daily records of trending YouTube videos across multiple regions (e.g., US, CA, GB, etc.).
+
+Each region has its own CSV file (~40K rows), including metadata like video title, channel, tags, views, likes, and comment count.
+
+A separate JSON file contains category IDs and names for each region.
+
+The data was ingested from raw .csv and .json formats and processed through an AWS-based ETL pipeline.
+
+Credit: Datasnaek on Kaggle
